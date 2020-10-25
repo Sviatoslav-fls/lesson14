@@ -808,9 +808,7 @@ textarea {
 }
 
 .shares__btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
   font-weight: bold;
   font-size: 16px;
   line-height: 46px;
@@ -1187,9 +1185,6 @@ textarea {
 
 .form__btn {
   line-height: 42px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
 }
 
 .footer {
