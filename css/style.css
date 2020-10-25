@@ -771,6 +771,7 @@ textarea {
 
 .shares {
   padding: 60px 0px 70px 0px;
+  text-align: center;
 }
 
 .shares__title {
@@ -807,7 +808,9 @@ textarea {
 }
 
 .shares__btn {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: bold;
   font-size: 16px;
   line-height: 46px;
@@ -818,11 +821,6 @@ textarea {
   border: 2px solid #6d81cc;
   border-radius: 3px;
   padding: 0px 60px;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .shares__btn:hover {
@@ -1058,6 +1056,7 @@ textarea {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  text-align: center;
 }
 
 .form__title {
@@ -1188,11 +1187,9 @@ textarea {
 
 .form__btn {
   line-height: 42px;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .footer {
