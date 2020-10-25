@@ -1085,7 +1085,6 @@ textarea {
   font-size: 15px;
   line-height: 18px;
   color: #7b7b7b;
-  padding: 0px 15px;
 }
 
 .form__input::-moz-placeholder {
@@ -1093,7 +1092,6 @@ textarea {
   font-size: 15px;
   line-height: 18px;
   color: #7b7b7b;
-  padding: 0px 15px;
 }
 
 .form__input:-ms-input-placeholder {
@@ -1101,7 +1099,6 @@ textarea {
   font-size: 15px;
   line-height: 18px;
   color: #7b7b7b;
-  padding: 0px 15px;
 }
 
 .form__input::-ms-input-placeholder {
@@ -1109,7 +1106,6 @@ textarea {
   font-size: 15px;
   line-height: 18px;
   color: #7b7b7b;
-  padding: 0px 15px;
 }
 
 .form__input::placeholder {
@@ -1117,7 +1113,6 @@ textarea {
   font-size: 15px;
   line-height: 18px;
   color: #7b7b7b;
-  padding: 0px 15px;
 }
 
 .form__input:focus {
